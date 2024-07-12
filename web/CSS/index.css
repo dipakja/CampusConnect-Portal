@@ -1,0 +1,64 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #343a40;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    margin-right: 15px; /* Adjust spacing between nav items */
+}
+
+/* Banner Styling */
+.jumbotron {
+    background-color: #f6b3b6;
+    padding: 50px;
+    margin-bottom: 0;
+    /* Removed text styling */
+}
+
+
+/* Button Styling */
+.btn-primary {
+    background-color: #2bbbad;
+    border-color: #2bbbad;
+}
+
+.btn-primary:hover {
+    background-color: #218c8d;
+    border-color: #218c8d;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 1s;
+}
+/* Override hover animation for a specific element */
+.my-element:hover {
+    animation: none;
+}
